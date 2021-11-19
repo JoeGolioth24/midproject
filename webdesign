@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>MID PROJECT WEB DESIGN</title>
+</head>
+<body>
+    <h1>Welcome To My Site!!!</h1>
+    <h4 class="hello">Hello, My name is Joe Enrique Golioth, I was born in Tomohon, January 24 2001. Now I'm 20 years old and I live in Tomohon. I'm one of the students at Klabat University in Faculty of Computer Science.</h4>
+    <p> <b>Hobby:</b></p>
+                <ul type="square">
+                    <li>Futsal</li>
+                    <li>Basketball</li>
+                    <li>Badminton</li>
+                </ul>
+
+                <p> <b>Favorite Food: </b></p>
+                <ol type="1">
+                    <li>Noodle</li>
+                    <li>Fish</li>
+                    <li>Fried Rice</li>
+                </ol>
+
+          
+
+    <h3>Me and My Friends</h3>
+    <img src="https://i.pinimg.com/236x/c3/45/05/c34505e0e48b63b2d7c2afdee6343e9d.jpg" alt="picture"
+    width="30%"/>
+
+    <br><br>
+
+
+
+    <iframe
+     width="560"
+      height="315"
+       src="https://www.youtube.com/embed/mBVhy_UHYmk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <br>
+        <fieldset>
+            <legend class="biodata">My BIODATA</legend> <br>
+            <label for="name">Nama: </label>
+            <input type="text" name="name" /><br><br>
+            <label for="addres">Alamat: </label>
+            <input type="text" name="addres" /><br><br>
+            <label for="School"> Sekolah </label>
+            <input type="text" name="School" /><br><br>
+
+            <label for="gender">Jenis Kelamin: </label>
+            <input type="radio" name="Laki-laki" checked="Laki-laki" />
+            <label for="Man">Laki-laki</label>
+            <input type="radio" name="Perempuan" />
+            <label for="Women">Perempuan</label> <br><br>
+
+            <label for="Faculty">Fakultas: </label>
+            <input type="checkbox" name="FIK" />
+            <label for="UBS">UBS</label>
+            <input type="checkbox" name="FIK" />
+            <label for="FIK">FIK</label>
+            <input type="checkbox" name="Keperawatan" />
+            <label for="Keperawatan">Keperawatan</label> <br><br>
+
+            <label for="Daerah asal">Daerah asal: </label>
+            <select>
+               <option value="Tomohon">Tomohon</option>
+                <option value="Bitung">Bitung</option>
+                <option value="Manado">Manado</option>
+                <option value="Tondano">Tondano</option>
+                <option value="Amurang">Amurang</option>
+            </select> <br><br>
+
+        <span for="QUOTE">
+                QUOTE</span> <br><br>
+
+                
+
+                <textarea rows="15" cols="70" placeholder="Tulis disini"></textarea>
+    
+             
+            
+            
+        </fieldset>
+</body>
+</html>

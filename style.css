@@ -1,0 +1,53 @@
+.hello{
+    color: #845baf;
+}
+
+h1:hover{
+    
+    background-color: #c9c4c4;
+}
+
+h4::selection {
+    color: white;
+    background-color: #5C527F;
+}
+
+h1{
+    color: #122180; ;
+    background-color: #DBE6FD;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        
+    }
+
+    .hello::first-letter{
+        color: #5a46b4;
+        font-size: 70px;
+    }
+p{
+    color: #818c9c;
+    border: 8px solid #3D56B2;
+        padding: 10px;
+        margin: 10px;
+        width: 120px;
+}
+
+h3{
+    display: block;
+    color: white;
+    background-color:#3D56B2;
+    width: 180px;
+    height: 30x;
+    padding: 10px;
+ 
+ }
+ 
+.biodata {
+    color:#7f97b8;
+    font-size: 2rem ;
+}
+
+span{
+    display: inline-block ;
+}
